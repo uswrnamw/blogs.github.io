@@ -1,0 +1,213 @@
+body {
+    font-family: Trebuchet MS;
+    background-color: #b3b3b3;
+}
+.main {
+    padding: 0 40px;
+    height: 100%;
+    background-image: url(bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    align-items: center;
+    border-radius: 0px 0px 60px 60px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.698);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header h2 {
+    color: rgb(15, 147, 151);
+    text-shadow: 0 0 20px rgba(14, 245, 253, 0.698);
+    font-size: xx-large;
+}
+.nav {
+    display: flex;
+}
+.nav a {
+    color: rgb(9, 9, 9);
+    font-size: 20px;
+    padding: 0 40px;
+    text-decoration: none;
+}
+.nav li {
+    list-style-type: none;
+}
+.carouselslide {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.blogs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.about_me {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.container img{
+    max-width: 900px;
+    max-height: 90%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+#carouselExample .carousel-control-prev,
+#carouselExample .carousel-control-next {
+    background-color: black; /* Button background color on hover */
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    margin-top: 275px;
+}
+#carouselExample .carousel-indicators{
+    background-color:rgba(0, 0, 0, 0.5);; /* Button background color on hover */
+    height: 10px;
+}
+#carouselExample .carousel-caption{
+    background-color:rgba(0, 0, 0, 0.5); /* Button background color on hover */
+    position: absolute;
+    bottom: 20px;
+}
+.blogs_aboutme {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.blogs {
+    width: 65%;
+}
+.card {
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.card img {
+    padding: 20px 0px;
+    height: 300px;
+    margin: auto;
+}
+button {
+    width: 150px;
+    padding: 8px 0;
+    background-color: white;
+    border: 1px solid rgb(15, 147, 151);
+    margin: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+button:hover {
+    background-color: rgb(23, 210, 216);
+    padding: 4px 0;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px rgb(0, 247, 255);
+}
+.about_me {
+    width: 30%;
+    height: 2356.42;
+}
+.about_me p {
+    padding-top: 15px;
+}
+.popular {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.popular a {
+    text-decoration: none;
+    color: #000000;
+}
+.footer h2 {
+text-align: center;
+}
+footer h2 {
+text-align: center;
+}
+.submit_button {
+    margin-top: 20px;
+    text-align: center;
+}
+.article {
+    font-family: Segoe UI;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 40px black;
+    text-align: center;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+.article h1 {
+    color: brown;
+    font-size: 3em;
+    padding-top: 10px;
+}
+.article img {
+    padding-top: 30px;
+    width: 80%;
+}
+.art_description {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+.art_description p{
+    word-spacing: 5px;
+    line-height: 30px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
